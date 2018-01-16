@@ -1,0 +1,36 @@
+Problem:
+Pizza shop receives order and saves them in a text file however they are not in correct order.
+Tasks is to arrange the list in correct order 
+Write results to a destination file in human readable format.
+
+Expectations:
+Mavenized project
+Source code
+Include test cases
+Ability to run test cases from command line
+
+Make executable jar with run instruction.
+	--think from business end-user point
+	--src file location, destination file as parameter
+
+Use sample data file for testing.
+
+
+Important: 
+Document all assumptions that were made.
+Document all design decision.
+
+The program would later be extended to do following in future. 
+	--Reading data from DB and stores back in DB
+	--file is uploaded via the web interface and returned back to the user.
+
+
+Q. What format is time stored. 
+(Epoch time)
+Q. What sorting needs to be done?
+(lexicographical)
+Q. Incorrect spelling?
+Human entered data, use as it is
+
+* if Q/A is not available, mention any assumption that is made.
+
